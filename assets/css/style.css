@@ -283,7 +283,6 @@ footer>a:active{     /* * footer text unten bei Roma hat eine ID=donateAnker Dam
 
 
 footer>p:nth-of-type(2){
-    background-color: red;
     display: inline-block;
     margin: 60vh 0 0 0;
     width: 100vw;
@@ -291,7 +290,6 @@ footer>p:nth-of-type(2){
 }
 
 footer>p:nth-of-type(2)>span{
-    background-color: blue;
     text-transform: uppercase;
 }
 
