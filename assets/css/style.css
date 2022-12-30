@@ -44,13 +44,13 @@ html{
     src: url("../fonts/SANTIO/TTF/Santio\ Black.ttf");
 }
 
-/* ************ parallax Effekt ********** */
+/* ! ************ Start parallax Effekt ********** */
+/* ! ************ Start parallax Effekt ********** */
+/* ! ************ Start parallax Effekt ********** */
 
 body, html {
     height: 100%;
 }
-
-
 
 .section--parallaxEffekt {
 background-image: url("../img/cleo-topper.jpg");
@@ -62,13 +62,19 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
 }
 
+/* ! ************ Ende parallax Effekt ********** */
+/* ! ************ Ende parallax Effekt ********** */
+/* ! ************ Ende parallax Effekt ********** */
+
 
 /* ******************+ Beginn Style ********** */
 /* ******************+ Beginn Style ********** */
 /* ******************+ Beginn Style ********** */
+
+
+/* ********* font Familys zugewiesen ******** */
 
 html {
     font-family: Santio--black, sans-serif;
@@ -76,9 +82,17 @@ html {
 
 .roboto--fontFamily{
     font-family: Roboto--black, sans-serif;
-
 }
 
+.tangerine--fontFamily {
+    font-family: Tangerine--bold, sans-serif;
+}
+
+/* *************** farben ***************** */
+
+.color--white{
+    color: #fff;
+}
 
 
 /* ****************** header ***************** */
@@ -104,6 +118,7 @@ html {
 
 .header__section__rechtsMitBild>p{
     background-color: blue;
+    color: ;
 
 }
 
@@ -125,7 +140,9 @@ html {
 
 
 
-
+footer{
+    background-color: #000;
+}
 
 
 /* ****************** Parallax ausschalten für Mobilgeräte ************* */
