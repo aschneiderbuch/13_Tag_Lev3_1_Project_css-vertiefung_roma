@@ -1,3 +1,18 @@
+/* font family
+
+1x Text gelbe Schrift
+font-family: Tangerine--bold, sans-serif;
+
+2x Text oben und unten
+font-family: Roboto--black, sans-serif;
+
+ganze Text 
+font-family: Santio--black, sans-serif;
+
+
+
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -10,3 +25,32 @@ html{
     scroll-behavior: smooth;
 }
 
+/* ****************** font family ******************** */
+
+@font-face {
+    font-family: Tangerine--bold;
+    src: url("../fonts/Tangerine/Tangerine-Bold.ttf");
+}
+
+@font-face {
+    font-family: Roboto--black;
+    src: url("../fonts/Roboto_2/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: Santio--black;
+    src: url("../fonts/SANTIO/TTF/Santio\ Black.ttf");
+}
+
+
+
+/* ****************** Parallax ausschalten für Mobilgeräte ************* */
+/* * da es meist Fehler auf Handys verursacht und nicht 
+* richtig angezeigt wird bzw. nicht richtig funktioniert  */
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
