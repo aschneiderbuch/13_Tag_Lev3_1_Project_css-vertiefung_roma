@@ -245,11 +245,44 @@ html {
 footer{
     background-color: #000;
     height: 200vh;
+
 }
 
 footer>p:nth-of-type(1){
     background-color: red;
+font-size: 9rem;
+width: 90vw;
+margin: 0 auto;
+
+    padding-top: 30vh;
+
+    margin-bottom: 10vh;
 }
+
+
+/* ******************** Button **************** */
+
+footer>a{
+    background-color: red;
+    margin-left: 5vw;
+    display: inline-block;  /* * da ja eigentlich InLineElement und das ist normal 
+                            * nur so groß wie sein Text, inline-block kann man in 
+                            * width und height zuweisen */
+    width: 12vw;
+    height: 10vh;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2vh;
+
+    border: 2px solid #fff;
+}
+
+footer>a:active{     /* * footer text unten bei Roma hat eine ID=donateAnker Damit beim
+                        * drücken nicht zum Seitennfang gehüpft wird */
+    box-shadow: 7px 7px 3px #fff;
+}
+
 
 /* ****************** Parallax ausschalten für Mobilgeräte ************* */
 /* * da es meist Fehler auf Handys verursacht und nicht 
