@@ -189,20 +189,33 @@ html {
 
 .section--rahmen--abstandNachOben>section>img{
     width: 15vw; /* * größe der Logos */
+    margin-bottom: 10vh;
 }
 
-.section--rahmen--abstandNachOben>section>article{
-    display: flex;
+.text--groß{
+    font-size: 14rem;
 }
 
-.section--rahmen--abstandNachOben>section>article>p:nth-of-type(1){
-    background-color: blue;
+.text--klein{
+    font-size: 3.8rem;
+}
+.text--farbe--1{
+    color: #e7bc0e;
 }
 
+.text--farbe--2{
+    color: #cb91b6;
+}
 
+.text--farbe--3{
+    color: #6bc1a3;
+}
 
+/* ******************* dritter text ****************** */
 
-
+.dritterText{
+    background-color: red;
+}
 
 
 footer{
