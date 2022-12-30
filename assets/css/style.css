@@ -133,16 +133,40 @@ html {
 /* ********************** main ***************** */
 
 .section--parallaxEffekt{
-    padding-top: 20vh;
+    padding-top: 40vh;
 }
 
 
+/* **************** erster Text und Text mit Kursiven Schrift **** */
+
+.section__ersterText{
+    width: 23vw;
+    margin-left: 10vw;
+}
+
+.section__ersterText>p{
+    font-size: 4rem;
+    margin-bottom: 20vh;
+}
+
+.section__ersterText>article>p{
+    color: #e7bc0e;
+    font-size: 3rem;
+}
+
+.section__ersterText>article>p::after{
+    content: "  ⎷ ";
+}
 
 
+/* ********************** zweiter Text ********************* */
 
-
-
-
+.zweiterText{
+    margin-top: 90vh;
+    width: 85vw;
+    margin-left: 13vw;
+    font-size: 3rem;
+}
 
 
 
