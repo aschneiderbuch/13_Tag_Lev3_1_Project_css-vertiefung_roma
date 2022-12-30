@@ -88,7 +88,7 @@ html {
     font-family: Tangerine--bold, sans-serif;
 }
 
-/* *************** farben ***************** */
+/* *************** farbe Schrift ***************** */
 
 .color--white{
     color: #fff;
@@ -106,26 +106,35 @@ html {
     justify-content: flex-end;
     align-items: flex-start;
     margin-right: 5vw;
-    margin-bottom: -4vh;        /* * damit header nicht über parallax Effekt ist */
-
+    margin-bottom: -5vh;        /* * damit header nicht über parallax Effekt ist */
+    padding-top: 1vh;
 }
 
 .header__section__rechtsMitBild>img{
-    background-color: green;
+
     width: 2vh;
     margin-right: 1vw;
 }
 
 .header__section__rechtsMitBild>p{
-    background-color: blue;
-    color: ;
+/*     background-color: blue;
+ */}
 
+#unterstrich{
+    position: absolute;
+    top: 4vh;
+    background-color: #e7bc0e;
+    height: 2px;
+    width: 7vw;
 }
 
+/* ********************** main ***************** */
+/* ********************** main ***************** */
+/* ********************** main ***************** */
 
-
-
-
+.section--parallaxEffekt{
+    padding-top: 20vh;
+}
 
 
 
