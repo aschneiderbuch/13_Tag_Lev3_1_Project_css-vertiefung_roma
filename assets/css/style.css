@@ -220,6 +220,26 @@ html {
 }
 
 
+/* *********** - ENDE -  main section parallax Effekt ******* */
+
+
+/* ************** Überlagernde Bilder ************ */
+
+.bilder--ueberlagern{
+    background-color: #efefef;
+    width: 100vw;
+    background-image: url("../img/see.png");
+    background-position: center;
+}
+
+
+
+#bilder--ueberlagern__oben{
+    width: 100vw;
+    margin-bottom: -0.25rem;
+
+}
+
 footer{
     background-color: #000;
 }
