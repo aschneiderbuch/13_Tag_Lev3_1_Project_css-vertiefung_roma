@@ -94,6 +94,11 @@ html {
     color: #fff;
 }
 
+/* **************** grauer Hintergrund bei Texten ********** */
+
+.background-color--grau{
+    background-color: #29272A;
+}
 
 /* ****************** header ***************** */
 /* ****************** header ***************** */
@@ -168,10 +173,23 @@ html {
     font-size: 3rem;
 }
 
+/* *************************** Logos mit Info mit Text ******* */
 
+.section--rahmen--abstandNachOben{
+    background-color: red;
+    margin-top: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
 
+.section--rahmen--abstandNachOben>section{
+    background-color: green;
+    height: 128vh;  /* * Abstand zu anderen Logos */
+}
 
-
+.section--rahmen--abstandNachOben>section>img{
+    width: 15vw;
+}
 
 footer{
     background-color: #000;
