@@ -105,7 +105,6 @@ html {
 /* ****************** header ***************** */
 
 .header__section__rechtsMitBild{
-    background-color: red;
     height: 5vh;
     display: flex;
     justify-content: flex-end;
