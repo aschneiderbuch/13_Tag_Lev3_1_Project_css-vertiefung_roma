@@ -188,8 +188,22 @@ html {
 }
 
 .section--rahmen--abstandNachOben>section>img{
-    width: 15vw;
+    width: 15vw; /* * größe der Logos */
 }
+
+.section--rahmen--abstandNachOben>section>article{
+    display: flex;
+}
+
+.section--rahmen--abstandNachOben>section>article>p:nth-of-type(1){
+    background-color: blue;
+}
+
+
+
+
+
+
 
 footer{
     background-color: #000;
