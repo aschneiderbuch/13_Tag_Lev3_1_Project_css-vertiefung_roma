@@ -249,7 +249,6 @@ footer{
 }
 
 footer>p:nth-of-type(1){
-    background-color: red;
 font-size: 9rem;
 width: 90vw;
 margin: 0 auto;
@@ -263,7 +262,6 @@ margin: 0 auto;
 /* ******************** Button **************** */
 
 footer>a{
-    background-color: red;
     margin-left: 5vw;
     display: inline-block;  /* * da ja eigentlich InLineElement und das ist normal 
                             * nur so groß wie sein Text, inline-block kann man in 
@@ -281,6 +279,20 @@ footer>a{
 footer>a:active{     /* * footer text unten bei Roma hat eine ID=donateAnker Damit beim
                         * drücken nicht zum Seitennfang gehüpft wird */
     box-shadow: 7px 7px 3px #fff;
+}
+
+
+footer>p:nth-of-type(2){
+    background-color: red;
+    display: inline-block;
+    margin: 60vh 0 0 0;
+    width: 100vw;
+    text-align: center;    
+}
+
+footer>p:nth-of-type(2)>span{
+    background-color: blue;
+    text-transform: uppercase;
 }
 
 
