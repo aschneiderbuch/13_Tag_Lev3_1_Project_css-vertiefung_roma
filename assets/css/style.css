@@ -232,18 +232,24 @@ html {
     background-position: center;
 }
 
-
-
 #bilder--ueberlagern__oben{
     width: 100vw;
     margin-bottom: -0.25rem;
 
 }
 
+/* ********************** footer ******************* */
+/* ********************** footer ******************* */
+/* ********************** footer ******************* */
+
 footer{
     background-color: #000;
+    height: 200vh;
 }
 
+footer>p:nth-of-type(1){
+    background-color: red;
+}
 
 /* ****************** Parallax ausschalten für Mobilgeräte ************* */
 /* * da es meist Fehler auf Handys verursacht und nicht 
